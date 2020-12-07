@@ -1,0 +1,210 @@
+
+/* If the ViewPort is equal to 340px or less than that */
+@media only screen and (max-width:340px){
+    .header_area .main_menu .navbar,
+    .header_area .main_menu .navbar .navbar-brand,
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p,h4,
+    .site-main .services-area{
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .title-text {
+        font: normal bold 40px/60px var(--roboto);
+    }
+
+    .site-main .site-banner .site-title{
+        font-size: 24px;
+    }
+
+    .site-main .site-banner .site-title .site-buttons{
+        padding: 0;
+        margin: 0;
+    }
+
+    .site-main .about-area{
+        padding: 1.5rem;
+    }
+
+    .site-main .about-area .about-title h2>span{
+        font: normal bold 30px/32px var(--roboto);
+        letter-spacing: 6px;
+    }
+
+    .site-main .brand-area {
+        padding: 1rem;
+        margin: 4rem 0;
+    }
+
+    .site-main .brand-area .experience-area .years-area{
+        padding: 0;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel {
+        width: 300px;
+        height: 400px;
+        left: -30px;
+        margin-left: 50px;
+    }
+
+    .site-main .brand-area .experience-area .call-area {
+        padding-left: 1rem;
+    }
+
+    .site-main .services-area {
+        margin: 6rem 0;
+    }
+
+    .site-main .services-area .services-title {
+        padding: 0 2rem;
+    }
+
+    .site-main .project-area .button-group button {
+        font: normal 500 14px/30px var(--roboto);
+    }
+    
+    .site-main .project-area .button-group button+button {
+        padding-left: 0.5rem;
+    }
+
+    .site-main .about-area .about-title p {
+        padding: 1rem 1rem;
+    }
+
+    .site-main .about-area .client {
+        background: #ffffff10;
+        box-shadow: var(--box-shadow);
+        margin: 2rem 1rem;
+    }
+    
+    .site-main .about-area .client .client-img {
+        padding: 1rem;
+    }
+    
+    .site-main .about-area .client .about-client {
+        padding-top: 1rem;
+    }
+    
+    .site-main .about-area .client .about-client h4 {
+        font: normal 500 12px/11px var(--roboto);
+    }
+    
+    .site-main .about-area .client .about-client p {
+        font-size: 10px;
+    }
+    
+    .site-main .about-area .owl-carousel .owl-item {
+        padding: 0 1rem;
+    }
+
+    .site-main .subscribe-us-area .subscribe {
+        padding: 2rem 0;
+        margin: 4rem 0;
+    }
+
+    .site-main .subscribe-us-area .subscribe .subscribe-title h4 {
+        font: normal 500 18px/18px var(--roboto);
+    }
+    
+    .site-main .subscribe-us-area .subscribe .subscribe-title p{
+        padding: 1rem 1rem;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input {
+        width: 280px;
+        padding: 1.2rem 0.5rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        font: normal 500 15px/18px var(--roboto);
+    }
+
+    .site-main .subscribe-us-area .subscribe form .btn-submit button {
+        padding: .5rem 2.4rem;
+    }
+
+    footer.footer-area .social a>i {
+        font-size: 20px;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width:792px){
+    .site-main .brand-area {
+        padding: 1rem 5rem;
+        margin: 2rem 0;
+    }
+
+    .site-main .brand-area .experience-area .years-area{
+        padding: 2rem;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel {
+        width: 400px;
+        height: 400px;
+        left: 0px;
+        margin-left: 60px;
+    }
+
+    .site-main .brand-area .experience-area .call-area {
+        padding-left: 1rem;
+    }
+
+    .title-text {
+        font: normal bold 50px/50px var(--roboto);
+    }
+
+    .site-main .project-area .button-group button {
+        font: normal 500 16px/50px var(--roboto);
+    }
+
+    .site-main .project-area .grid .our-project .title h4 {
+        text-align: center;
+    }
+
+    .site-main .about-area .client {
+        margin: 2rem 1rem;
+    }
+    
+    .site-main .about-area .client .client-img {
+        padding: 1rem;
+    }
+    
+    .site-main .about-area .client .about-client {
+        padding-top: 1rem;
+    }
+
+    .site-main .about-area .owl-carousel .owl-item {
+        padding: 0 1rem;
+    }
+
+    .site-main .subscribe-us-area .subscribe {
+        padding: 0.5rem 0;
+        margin: 2rem 0;
+    }
+
+    .site-main .subscribe-us-area .subscribe .subscribe-title h4 {
+        font: normal 500 24px/30px var(--roboto);
+    }
+    
+    .site-main .subscribe-us-area .subscribe .subscribe-title p{
+        padding: 2rem 2rem;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input {
+        width: 300px;
+        padding: 1.5rem 3rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        font: normal 500 17px/20px var(--roboto);
+    }
+
+    .site-main .subscribe-us-area .subscribe form .btn-submit button {
+        padding: .5rem 2.4rem;
+    }
+
+}
+
+@media screen and (max-width: 2500px) and (min-width: 15500px) {
+
+}
